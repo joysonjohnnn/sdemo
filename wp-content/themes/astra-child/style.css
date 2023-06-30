@@ -1,0 +1,149 @@
+/**
+Theme Name: Clarity
+Author: HealthHosts
+Author URI: https://www.healthhosts.com/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: clarity
+Template: astra
+*/
+
+*:focus, *:hover, a:focus, a:hover, .fl-builder-content *, .fl-builder-content *:before, .fl-builder-content *:after {
+    outline: none !important;
+}
+/*Astra Theme Extra*/
+.ast-right-sidebar #secondary,.ast-right-sidebar #primary  {
+    border: none;
+}
+body:not(.fl-builder) .ast-article-single, body.ast-blog-grid-1  main#main{
+    padding:30px;
+}
+#comments {
+    padding: 0 30px 30px;
+}
+.ast-separate-container .comments-count-wrapper {
+    padding: 0 0 10px 0 !important;
+}
+body.page:not(.fl-builder) .ast-article-single .entry-content {
+    padding-bottom: 30px;
+}
+body.single.fl-builder .entry-header {
+    padding: 0 30px;
+	margin-bottom: 0;
+}
+body.single.fl-builder .entry-header .post-thumb {
+	padding-top: 30px;
+}
+body.single.fl-builder .post-navigation {
+    margin: 0;
+    padding: 0 20px 20px !important;
+}
+body.single:not(.fl-builder) .post-navigation {
+    margin: 0;
+    padding: 0 20px 20px !important;
+}
+body.single:not(.fl-builder) #hh_social_share .fl-row-content-wrap {
+    padding: 20px 0 0 0;
+}
+body.single:not(.fl-builder) #hh_social_share .fl-row-content-wrap .fl-module-content.fl-node-content {
+    margin: 0;
+}
+/*Astra Theme Extra Responsive*/
+@media (min-width: 921px){
+.ast-left-sidebar #secondary {
+    margin-right: 0;
+}
+}
+@media (max-width: 768px){
+.ast-separate-container.ast-box-layout #content .ast-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+body:not(.fl-builder) .ast-article-single, body.ast-blog-grid-1  main#main{
+    padding: 15px !important;
+}
+body.single.fl-builder .entry-header .post-thumb {
+	padding-top: 15px !important;
+}
+#comments {
+    padding: 0 15px 15px !important;
+}
+body.single.fl-builder .entry-header {
+    padding: 0 15px !important;
+	margin-bottom: 0;
+}	
+body.page:not(.fl-builder) .ast-article-single .entry-content {
+    padding-bottom: 15px;
+}	
+}
+/*Energise Theme Extra*/
+#secondary li {
+    margin-bottom: 0 !important;
+}
+.sidebar-main {
+    height: 100%;
+	 margin-bottom: 0;
+}
+.ast-right-sidebar #secondary, .ast-left-sidebar #secondary, .ast-separate-container.ast-two-container.ast-left-sidebar #secondary, .ast-separate-container.ast-two-container.ast-right-sidebar #secondary, .ast-separate-container.ast-right-sidebar #secondary, .ast-separate-container.ast-left-sidebar #secondary {
+    padding: 0;
+}
+@media (min-width: 921px){
+.ast-separate-container.ast-box-layout #content .ast-container {
+    display: flex;
+}
+.ast-left-sidebar #secondary {
+   border-width: 0 !important;
+}
+}
+@media (max-width: 921px){
+.small_center, .small_center * {
+    text-align: center !important;
+}
+.fl-builder-content .fl-button-left {
+    text-align: center !important;
+	margin: 0 !important;
+}	
+}
+@media (max-width: 1024px){
+/*Slider*/
+.fl-slide-content-wrap {
+    width: 100% !important;
+}	
+}
+@media screen and (max-width: 1024px) and (min-width: 921px) {
+#secondary {
+    width: 30%;
+}
+}	
+/*Archive*/
+#hh_archive_grid .uabb-post-thumbnail img {
+    border-radius: 999px;
+	max-width: 255px;
+}
+/*Sidebar*/
+.widget-title {
+    margin-bottom: 5px;
+}
+.recent-posts-widget-with-thumbnails img {  border-radius: 100px;}
+.rpwwt-widget ul li div.rpwwt-post-excerpt {
+    font-size: 80%;
+}
+.sidebar-main {
+    padding-bottom: 15px;
+}
+/*Modules*/
+.uabb-adv-accordion-item * {
+    outline: none !important;
+}
+.uabb-pricing-table .uabb-creative-button-wrap {
+    display: inline-block;
+}
+/*Navigation Arrows*/
+.fl-content-slider-navigation .fl-content-slider-svg-container { height: 40px; width: 40px;}
+.fl-content-slider-navigation svg {  max-width: 100% !important;  padding: 7px !important; vertical-align: middle !important; width: 100% !important; }
+.fl-content-slider-navigation .slider-prev { left: -22px; opacity: 0; transition: all 0.2s ease-in-out 0s;}
+.fl-content-slider:hover .fl-content-slider-navigation .slider-prev, .fl-content-slider:focus .fl-content-slider-navigation .slider-prev { left: 22px; opacity: 1;}
+.fl-content-slider-navigation .slider-next { right: -22px; opacity: 0;	transition: all 0.2s ease-in-out 0s;}
+.fl-content-slider:hover .fl-content-slider-navigation .slider-next, .fl-content-slider:focus .fl-content-slider-navigation .slider-next { right: 22px; opacity: 1;}
